@@ -1,0 +1,69 @@
+@import "theme.css";
+
+@import "./Sections/about-me.css";
+@import "./Sections/footer.css";
+@import "./Sections/header.css";
+@import "./Sections/projects.css";
+@import "./Sections/skills.css";
+@import "./Sections/animations.css";
+
+* {
+    font-size: var(--p-font-size);
+    
+}
+:root {
+    line-height: var(--p-line-height);
+    letter-spacing: var(--p-letter-spacing);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--foreground-color);
+    background-image:
+        linear-gradient(hsla(var(--p-500-code), .05) 1px, transparent 1px),
+        linear-gradient(90deg, hsla(var(--p-500-code), .05) 1px, transparent 1px);
+
+    background-size: 36px 36px;
+}
+
+.small_icon {
+    width: 50px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1536px;
+    padding: 2rem 2rem
+}
+
+.section__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.section__title {
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-line-height);
+    font-weight: bold;
+    color: var(--p-950);
+    text-transform: capitalize;
+}
+
+.section__description {
+    text-align: center;
+    max-width: 65ch;
+    color: var(--n-500);
+}

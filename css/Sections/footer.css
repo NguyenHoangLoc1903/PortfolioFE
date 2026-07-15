@@ -1,0 +1,12 @@
+footer {
+    padding: 40px 0;
+    font-size: var(--caption-font-size);
+    color: var(--n-500);
+    background-image: var(--gradient-color);
+    text-align: center;
+    max-width: none !important;
+    & b {
+        font-weight: 700;
+    }
+}
+
