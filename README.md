@@ -8,7 +8,6 @@ https://nguyenhoangloc1903.github.io/PortfolioFE/
 
 - HTML
 - CSS
-- JavaScript
 
 ## Tác giả
 
